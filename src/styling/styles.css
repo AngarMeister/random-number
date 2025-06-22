@@ -38,15 +38,19 @@ footer {
     border: 1px solid black;
 }
 
-div{
-    border: 1px solid black;
-    padding: 5px;
+.random-generator{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 .random-button{
     background-color: lightblue;
     border: 2px;
     font-size: 16px;
+    align-items: center;
 }
 
 #result {
