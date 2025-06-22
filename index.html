@@ -4,19 +4,25 @@
     <meta charset="UTF-8">
     <title>Temu random generato</title>
     <link rel ="icon" href="images/s-l400.png">
+    <link rel="stylesheet" href="src/styling/styles.css">
 </head>
 <body>
+    <!-- Before this used div with class header, but better to use header tag-->
+    <header>Tyt is header</header>
     <!-- class for css and id for js -->
     <!-- Label is made for UI and to undestand what is need to be insrted in some form-->
     <!-- With for always ID -->
-    <label for="min">Начальное число:</label>
-    <input id="min" type="number" min="1">
-    <br>
-    <!-- Another way of creating label + input -->
-    <label class="number max">Конечное число: <input id="max" type="number" min="1"></label>
-    <br>
-    <button class="random-button">Нажми меня!</button>
-    <p id="result"></p>
-    <script src="src/random.js"></script>
+    <main>
+        <div>
+            <label for="min">Начальное число:</label>
+            <input id="min" type="number" min="1">
+            <label class="number max">Конечное число: <input id="max" type="number" min="1"></label>
+            <button class="random-button">Нажми меня!</button>
+            <!-- Another way of creating label + input -->
+            <p id="result"></p>
+            <script src="src/random.js"></script>
+        </div>
+    </main>
+    <footer>Tyt is footer</footer>
 </body>
 </html>

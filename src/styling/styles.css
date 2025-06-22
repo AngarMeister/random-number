@@ -1,0 +1,54 @@
+body {
+    /* Use flexbox layout for vertical alignment */
+    display: flex;
+    /* Stack child elements vertically */
+    flex-direction: column;
+    /* 100vh = 100% of viewport height, ensures page fills screen */
+    min-height: 100vh;
+    /* Remove default body margin for full-width layout */
+    margin: 0;
+}
+
+header {
+    /* Add 50px padding on all sides */
+    padding: 50px;
+    /* Add 0px margin top/bottom and 5px left/right */
+    margin: 0 5px;
+    /* Add thin black border for visual separation */
+    border: 1px solid black;
+}
+
+main {
+    /* Allow main content to expand and fill available space */
+    flex-grow: 1;
+    /* Add 15px padding on all sides */
+    padding: 15px;
+    /* Add 5px margin on all sides */
+    margin: 5px;
+    /* Add thin black border for visual separation */
+    border: 1px solid black;
+}
+
+footer {
+    /* Add 15px padding on all sides */
+    padding: 15px;
+    /* Add 5px margin on all sides */
+    margin: 5px;
+    /* Add thin black border for visual separation */
+    border: 1px solid black;
+}
+
+div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.random-button{
+    background-color: lightblue;
+    border: 2px;
+    font-size: 16px;
+}
+
+#result {
+    border: 1px solid black;
+}
