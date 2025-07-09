@@ -11,12 +11,39 @@ body {
 
 header {
     /* Add 50px padding on all sides */
-    padding: 50px;
+    padding: 5px;
     /* Add 0px margin top/bottom and 5px left/right */
-    margin: 0 5px;
+    margin: 0;
     /* Add thin black border for visual separation */
     border: 1px solid black;
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    display: flex;
+    justify-content: center;
 }
+
+.menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    border: 1px solid #fff;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
 
 main {
     /* Allow main content to expand and fill available space */
