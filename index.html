@@ -15,7 +15,9 @@
                 <a href="/about" class="nav-link">About</a>
                 <a href="/history" class="nav-link">History</a>
             </div>
-            <div class="login">Login</div>
+            <div class="login-signup">
+                <a href="/" class="login">Login</a>
+            </div>
         </div>
     </header>
     <!-- class for css and id for js -->
@@ -23,11 +25,12 @@
     <!-- With for always ID -->
     <main>
         <div class="random-generator">
-            <label for="min">Начальное число:</label>
-            <input id="min" type="number" min="1">
-            <label class="number max">Конечное число: <input id="max" type="number" min="1"></label>
-            <button class="random-button">Нажми меня!</button>
+            <div class ="choice">
+                <label for="min">Начальное число:<input id="min" type="number" min="1"></label>
+                <label class="number max">Конечное число:<input id="max" type="number" min="1"></label>
+            </div>
             <!-- Another way of creating label + input -->
+            <button class="random-button">Нажми меня!</button>
             <p id="result"></p>
             <script src="src/random.js"></script>
         </div>
