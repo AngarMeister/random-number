@@ -54,11 +54,14 @@ main {
     /* Allow main content to expand and fill available space */
     flex-grow: 1;
     /* Add 15px padding on all sides */
-    padding: 15px;
+    padding: 10px;
     /* Add 5px margin on all sides */
-    margin: 5px;
+    /*margin: 3px;*/
     /* Add thin black border for visual separation */
     border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 footer {
@@ -94,6 +97,7 @@ footer {
     flex-wrap: wrap;
     align-content: space-evenly;
     width: fit-content;
+    padding: 3px;
 }
 
 .random-button{
@@ -108,5 +112,6 @@ footer {
 #result {
     padding: 5px;
     border: 1px solid black;
-    color: red;
+    border-radius: 10%;
+    color: blue;
 }
